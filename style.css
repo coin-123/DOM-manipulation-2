@@ -36,7 +36,8 @@
 }
 
 .btn:hover{
-    background-color: rgb(144, 144, 144);
+    /* background-color: rgb(144, 144, 144); */
+    background-color: aqua;
 }
 .btn-operator, .btn-oprite, .btn-oprito {
     background-color: rgb(75, 75, 221);
@@ -74,6 +75,8 @@
      .butons-for-all{
         /* background-color: blue; */
         height: 85%;
+        color: tomato;
+
      }
      .top-screen{
         /* background-color: transparent; */
@@ -90,4 +93,42 @@
 
    
    
+}
+@media screen and (width: 896) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        height: 100vh;
+        /* background-color: red; */
+    }
+
+    .container{
+        width: 400px;
+        border-radius: none;
+        background-color: #667079;
+        margin: 0;
+        height: 679.5px;
+        border-radius:  0;
+        
+     }
+     .butons-for-all{
+        /* background-color: blue; */
+        height: 85%;
+        color: tomato;
+
+     }
+     .top-screen{
+        /* background-color: transparent; */
+        width: 100%;
+    height: 100px;
+    border-bottom: 1px solid white;
+    font-size: 2rem;
+    text-align: right;
+    border-radius: 0;
+    padding-top: 10px;
+     }
 }
